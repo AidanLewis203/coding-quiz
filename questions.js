@@ -1,33 +1,38 @@
 // add variables for the questions
-var article = document.article;
-var question = document.querySelector(".questions");
-var questionOptions = ["Commonly used data types do NOT include", "The condition in an IF/Else statement is enclosed with _____", ""];
-var option1 = document.querySelector("#option1");
-var option2 = document.querySelector("#option2");
-var option3 = document.querySelector("#option3");
-var option4 = document.querySelector("#option4");
-
-
-
-
-
-
-function startQuiz (event){
-    event.preventDefault()
-    var listEl = document.createElement("ol");
-    var li1 = document.createElement("li");
-    var li2 = document.createElement("li");
-    var li3 = document.createElement("li");
-    var li4 = document.createElement("li");
-    li1.addId("#option1");
-    li2.addId("#option2");
-    li3.addId("#option3");
-    li4.addId("#option4");
-    article.appendChild(listEl);
-    listEl.appendChild(li1);
-    listEl.appendChild(li2);
-    listEl.appendChild(li3);
-    listEl.appendChild(li4);
-};
-
-
+var questions = [
+    {
+        title: "Commonly used data types do NOT include:",
+        options: ["Strings", "Booleans", "Alerts", "Numbers"],
+        answers: "Alerts",
+    },
+    {
+        title: "The condition in an IF/Else statement is enclosed with _____:",
+        options: ["Quotes", "Curly Brackets", "Parenthesis", "Square Brackets"],
+        answers: "Parenthesis", 
+    },
+    {
+        title: "Arrays in JavaScript can be used to store:",
+        options: ["Numbers and Strings", "Other Arrays", "Booleans", "All of the Above"],
+        answers: "All of the Above"
+    },
+    {
+        title: "String values must be enclosed within _____ when being assigned to variables:",
+        options: ["Commas", "Curly Brackets", "Quotes", "Parenthesis"],
+        answers: "Parenthesis",
+    },
+    {
+        title: "A very useful tool to be used in the development and debugging process for printing content to the debugger is:",
+        options: ["JavaScript", "Terminal/Bash", "For Loops", "Console Log"],
+        answers: "Console Log",
+    },
+    {
+        title: "Commonly used data types do NOT include:",
+        options: ["Strings", "Booleans", "Alerts", "Numbers"],
+        answers: "Alerts",
+    },
+    {
+        title: "Commonly used data types do NOT include:",
+        options: ["Strings", "Booleans", "Alerts", "Numbers"],
+        answers: "Alerts",
+    },
+];
