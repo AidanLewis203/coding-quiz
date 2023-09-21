@@ -1,0 +1,37 @@
+body {
+    display: flex;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+}
+span {
+    display: flex;
+    justify-content: end;
+}
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h1 {
+    text-align: center;
+    visibility: visible;
+}
+
+article {
+    justify-content: center;
+}
+li {
+    
+}
+#opening {
+    text-align: center; 
+    visibility: visible;
+}
+#start {
+    visibility: visible;
+}
+#list {
+    visibility: hidden;
+}
