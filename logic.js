@@ -45,8 +45,8 @@ quizStart.addEventListener('click', function (){
     start.setAttribute('style', 'visibility: hidden;')
     listEl.setAttribute('style', 'visibility: visible;')
     titleEl.setAttribute('style', 'visibility: hidden;')
-    switchQuestion()
     countdown()
+    switchQuestion()
     
 });
 
