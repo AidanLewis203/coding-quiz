@@ -63,7 +63,6 @@
     const correct = selectedButton.innerText === quizData[currentQuestionIndex].correctAnswer;
   
     if (correct) {
-      // Do something when the answer is correct
     } else {
       timeLeft -= 10; // Subtract 10 seconds for incorrect answer
     }
