@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -35,5 +35,30 @@
     <script src="./assets/js/questions.js"></script>
     <script src="./assets/js/logic.js"></script>
 
+</body>
+</html> -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Code Quiz</title>
+  <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Code Quiz</h1>
+    <button id="start-button">Start Quiz</button>
+    <div id="question-container" class="hide">
+      <p id="question"></p>
+      <div id="answer-buttons" class="btn-grid"></div>
+      <p id="timer">Time: 60</p>
+      <input type="text" id="initials-input" class="hide" placeholder="Enter your initials">
+      <button id="save-button" class="hide">Save Score</button>
+    </div>
+  </div>
+  <script src="./assets/js/questions.js"></script>
+  <script src="./assets/js/logic.js"></script>
 </body>
 </html>
