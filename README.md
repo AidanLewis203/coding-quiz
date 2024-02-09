@@ -5,3 +5,9 @@ This is an application that is used to quiz your knowledge of coding. It uses se
 
 ## Usage
 When using this application you should be able to select the start quiz button and go through the quiz to recieve a score. If you answer a questiom incorrectly you'll have time deducted from your score. Upon completing the quiz and receiving a score you will be asked to submit your initials to save a highscore on the quiz.
+
+![Screenshot 1](./assets/screenshots/codeQuiz1.png)
+![Screenshot 2](./assets/screenshots/codeQuiz2.png)
+
+
+[Live Webpage](https://aidanlewis203.github.io/coding-quiz/)
