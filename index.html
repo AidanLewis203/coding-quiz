@@ -1,39 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Coding Quiz</title>
-    <link rel="stylesheet" href="./assets/css/style.css" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Code Quiz</title>
+  <link rel="stylesheet" href="./assets/css/style.css">
 </head>
-
-<body> 
-    <header>
-        <a>View Highscores</a>
-        <div class="timer">Time: <span id="timer">0</span></div>
-    </header>
-    <section>
-        <h1 id="opening">Coding Quiz Challenge</h1>
-        <h2 class="question"></h2>
-        <p id="endText"></p>
-        <article  id="start">
-            <button id="quizStart">Start Quiz</button>
-        </article>
-        <article> 
-            <ol id = "list">
-                <li><button class="button" id="li1"></button></li>
-                <li><button class="button" id="li2"></button></li>
-                <li><button class="button" id="li3"></button></li>
-                <li><button class="button" id="li4"></button></li>
-            </ol>
-            <div id="correct"></div>
-        </article>
-    </section>
-
-
-    <script src="./assets/js/questions.js"></script>
-    <script src="./assets/js/logic.js"></script>
-
+<body>
+  <div class="container">
+    <h1>Code Quiz</h1>
+    <button id="start-button">Start Quiz</button>
+    <div id="question-container" class="hide">
+      <p id="question"></p>
+      <div id="answer-buttons" class="btn-grid"></div>
+      <p id="timer">Time: 60</p>
+      <input type="text" id="initials-input" class="hide" placeholder="Enter your initials">
+      <button id="save-button" class="hide">Save Score</button>
+    </div>
+  </div>
+  <script src="./assets/js/questions.js"></script>
+  <script src="./assets/js/logic.js"></script>
 </body>
 </html>

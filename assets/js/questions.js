@@ -1,38 +1,38 @@
 // add variables for the questions
-var questions = [
+var quizData = [
     {
-        title: "Commonly used data types do NOT include:",
-        options: ["Strings", "Booleans", "Alerts", "Numbers"],
-        answers: "Alerts",
+        question: "Commonly used data types do NOT include:",
+        answers: ["Strings", "Booleans", "Alerts", "Numbers"],
+        correctAnswer: "Alerts"
     },
     {
-        title: "The condition in an IF/Else statement is enclosed with _____:",
-        options: ["Quotes", "Curly Brackets", "Parenthesis", "Square Brackets"],
-        answers: "Parenthesis", 
+        question: "The condition in an IF/Else statement is enclosed with _____:",
+        answers: ["Quotes", "Curly Brackets", "Parenthesis", "Square Brackets"],
+        correctAnswer: "Parenthesis"
     },
     {
-        title: "Arrays in JavaScript can be used to store:",
-        options: ["Numbers and Strings", "Other Arrays", "Booleans", "All of the Above"],
-        answers: "All of the Above"
+        question: "Arrays in JavaScript can be used to store:",
+        answers: ["Numbers and Strings", "Other Arrays", "Booleans", "All of the Above"],
+        correctAnswer: "All of the Above"
     },
     {
-        title: "String values must be enclosed within _____ when being assigned to variables:",
-        options: ["Commas", "Curly Brackets", "Quotes", "Parenthesis"],
-        answers: "Parenthesis",
+        question: "String values must be enclosed within _____ when being assigned to variables:",
+        answers: ["Commas", "Curly Brackets", "Quotes", "Parenthesis"],
+        correctAnswer: "Parenthesis"
     },
     {
-        title: "A very useful tool to be used in the development and debugging process for printing content to the debugger is:",
-        options: ["JavaScript", "Terminal/Bash", "For Loops", "Console Log"],
-        answers: "Console Log",
+        question: "A very useful tool to be used in the development and debugging process for printing content to the debugger is:",
+        answers: ["JavaScript", "Terminal/Bash", "For Loops", "Console Log"],
+        correctAnswer: "Console Log"
     },
     {
-        title: "Commonly used data types do NOT include:",
-        options: ["Strings", "Booleans", "Alerts", "Numbers"],
-        answers: "Alerts",
+        question: "Commonly used data types do NOT include:",
+        answers: ["Strings", "Booleans", "Alerts", "Numbers"],
+        correctAnswer: "Alerts"
     },
     {
-        title: "Commonly used data types do NOT include:",
-        options: ["Strings", "Booleans", "Alerts", "Numbers"],
-        answers: "Alerts",
+        question: "Commonly used data types do NOT include:",
+        answers: ["Strings", "Booleans", "Alerts", "Numbers"],
+        correctAnswer: "Alerts"
     },
 ];
